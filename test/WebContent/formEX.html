@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="register.jsp" method="post">
+        <fieldset>
+            <legend>필수 사항</legend>
+            <p>
+                <div>
+                    <label for="name">이름</label>
+                    <input type="text" name="name" id="name">
+                </div>
+            </p>
+           <p>
+            <div>
+                <label for="">이메일</label>
+                <input type="email">
+            </div>
+           </p>
+            <p>
+                <div>
+                    <label for="">비밀번호</label>
+                    <input type="password">
+                </div>
+            </p>           
+        </fieldset>
+        <fieldset>
+            <legend>부가 입력 사항</legend>
+            <p>
+                <label for="">거주지를 입력해주세요</label> 
+                <div>
+                    <select name="" id="">
+                        <option value="seoul">서울시</option>
+                        <option value="hwasung">화성시</option>
+                        <option value="inchen">인천시</option>
+                        <option value="busan">부산시</option>
+                    </select>
+                </div>             
+            </p>
+            <p>
+                <label for="">취미</label>
+                <label for="">독서</label>
+                <input type="checkbox" name="" id="">
+                <label for="">여행</label>
+                <input type="checkbox" name="" id="">
+                <label for="">영화감상</label>
+                <input type="checkbox" name="" id="">
+            </p>
+            <p>
+                <label for="">성별</label>
+                <label for="gender">남성</label>
+                <input type="radio" name="gender" id="gender">
+                <label for="gender">여성</label>
+                <input type="radio" name="gender" id="gender">
+            </p>
+            <p>
+                <label for="">사진을 등록해 주세요</label>
+                <input type="file" name="" id="">
+            </p>
+            <p>
+                <label for="">방문 경로를 말씀해주세요.</label>
+                <div>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </p>
+        </fieldset>
+        <p>
+            <input type="button" value="회원가입">
+            <input type="reset" value="재작성">
+            <input type="submit" value="전송">
+        </p>        
+    </form>
+</body>
+</html>
