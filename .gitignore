@@ -105,6 +105,9 @@ hs_err_pid*
 target/
 
 Servers/
-test/WebContent/META-INF/MANIFEST.MF
+WebContent/META-INF/MANIFEST.MF
+
 
 # End of https://www.toptal.com/developers/gitignore/api/java,java-web,code-java,eclipse
+
+*/.gitignore
